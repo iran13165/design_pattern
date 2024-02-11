@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "C#: <project-name> Debug",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/<relative-path-to-project-folder><project-name>.csproj"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/iranchoudhury/Documents/design_pattern_javascript/LiscovSubstitution",
+      "program": "/Users/iranchoudhury/Documents/design_pattern_javascript/LiscovSubstitution/build/Debug/outDebug"
+    }
+  ]
+}
